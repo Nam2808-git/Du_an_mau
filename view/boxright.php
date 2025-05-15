@@ -43,7 +43,7 @@
                     <input type="password" name="password">
                 </div>
                 <div class="row mb10">
-                    <input type="checkbox" name="">Ghi nhớ tài khoản?
+                    <input type="checkbox" name=""> Ghi nhớ tài khoản?
                 </div>
                 <div class="row mb10">
                     <input type="submit" value="Đăng nhập" name="dangnhap">
@@ -89,12 +89,12 @@
             extract($sp);
             $linksp = "index.php?act=sanphamct&id_sp=" . $id_sp;
             $img = $img_path . $img_sp;
-            echo '<div class="row mb10 top10">
-                                    <a href="' . $linksp . '">
-                                        <img src="' . $img . '" alt="">
+            echo    '<div class="row mb10 top10">
+                        <a href="' . $linksp . '">
+                            <img src="' . $img . '" alt="">
                                         ' . $name_sp . '
-                                    </a>
-                                </div>';
+                        </a>
+                    </div>';
         }
         ?>
     </div>

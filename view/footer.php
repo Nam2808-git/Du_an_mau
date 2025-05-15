@@ -1,5 +1,5 @@
 <div class="row mb footer">
-  Copyright by Nam
+  Copyright by Nam Nguyen
 </div>
 </div>
 <script>
