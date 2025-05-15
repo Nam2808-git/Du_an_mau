@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="st.css">
 
     <style>
@@ -32,10 +32,10 @@
 <body>
     <div class="box">
         <a href="index.php">
-        <div class="header row mb">
-            <img src="view/img/logo.png" alt="">
-        </div>
-    </a>
+            <div class="header row mb">
+                <img src="view/img/logo.png" alt="">
+            </div>
+        </a>
         <div class="menu mb demo">
             <ul>
                 <li><a href="index.php">Trang chủ</a></li>

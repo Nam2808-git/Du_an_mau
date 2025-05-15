@@ -11,6 +11,7 @@
             width: 70%;
             margin: 0 auto;
         }
+
         .row {
             float: left;
             width: 100%;
@@ -50,8 +51,9 @@
                         </a>
                     </div>
                     <?php
-                    if(isset($thongbao)&&($thongbao!="")){
-                        echo $thongbao;}
+                    if (isset($thongbao) && ($thongbao != "")) {
+                        echo $thongbao;
+                    }
                     ?>
                 </form>
             </div>

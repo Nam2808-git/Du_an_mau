@@ -14,11 +14,11 @@
         text-align: center;
     }
 
-    .spct{
+    .spct {
         text-align: center;
     }
 
-    .img img{
+    .img img {
         width: 500px;
         height: 350px
     }
@@ -27,14 +27,15 @@
     <div class="left mr demo">
         <div class="row mb">
             <?php
-                 extract($onesp);
+            extract($onesp);
             ?>
-            <div class="title"><?=$name_sp?></div>
+            <div class="title"><?= $name_sp ?></div>
             <div class="row content">
                 <?php
-                    $img=$img_path.$img_sp;
-                    echo '<div class="img row mb spct"><img src="'.$img.'"></div> ';
-                    echo $des; '<br>'
+                $img = $img_path . $img_sp;
+                echo '<div class="img row mb spct"><img src="' . $img . '"></div> ';
+                echo $des;
+                '<br>'
                 ?>
             </div>
         </div>
@@ -50,14 +51,14 @@
         <div class="row mb">
             <div class="title">Sản phẩm liên quan</div>
             <div class="row content">
-                <?php?>
+                <?php ?>
             </div>
         </div>
     </div>
 </div>
 <div class="right mb">
     <?php
-            include "boxright.php";
-        ?>
+    include "boxright.php";
+    ?>
 </div>
 </div>

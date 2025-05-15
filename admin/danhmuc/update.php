@@ -1,8 +1,8 @@
 <?php
 
-    if(is_array($dm)){
-        extract($dm);
-    }
+if (is_array($dm)) {
+    extract($dm);
+}
 
 ?>
 <!-- <!DOCTYPE html>
@@ -47,10 +47,10 @@
                     </div>
                     <div class="row mb10">
                         Tên loại <br>
-                        <input type="text" name="tenloai" value="<?php if(isset($name)&&($name!="")) echo $name; ?>">
+                        <input type="text" name="tenloai" value="<?php if (isset($name) && ($name != "")) echo $name; ?>">
                     </div>
                     <div class="row mb10">
-                        <input type="hidden" name="iddm" value="<?php if(isset($iddm)&&($iddm!="")) echo $iddm ;?>">
+                        <input type="hidden" name="iddm" value="<?php if (isset($iddm) && ($iddm != "")) echo $iddm; ?>">
                         <input type="submit" name="capnhat" value="Cập nhật">
                         <input type="reset" value="Nhập lại">
                         <a href="index.php?act=lisdm">
@@ -58,8 +58,9 @@
                         </a>
                     </div>
                     <?php
-                    if(isset($thongbao)&&($thongbao!="")){
-                        echo $thongbao;}
+                    if (isset($thongbao) && ($thongbao != "")) {
+                        echo $thongbao;
+                    }
                     ?>
                 </form>
             </div>
